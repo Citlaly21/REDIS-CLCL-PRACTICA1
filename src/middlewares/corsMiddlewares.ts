@@ -1,0 +1,10 @@
+import cors from "cors";
+
+const corsOptions = {
+    origin: "http://localhost:3000",
+    optionsSuccessStatus: 200
+}
+
+export default cors(corsOptions);
+
+// mutable (puede cambiar de valor) e inmutable (no puede cambiar de valor)
